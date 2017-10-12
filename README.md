@@ -12,6 +12,13 @@ Each class should be defined in such a way that it adds an incrementing id to ea
 
 Construct the following classes:
 
+// trips() {
+//   return store.trips.filter(trip => {
+//     return trip.driverId === this.id;
+//   });
+// }
+
+
 `Driver` class:
   + A driver has many trips, and has many passengers through trips.
   + `new Driver()` - initialized with a name; returns a JavaScript object that has attributes of `id`, and `name`
